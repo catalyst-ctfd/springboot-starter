@@ -1,9 +1,5 @@
 :linkattrs:
 
-= Spring Boot Greeter Application
+= Spring Boot Hello World Application
 
-This is an example Spring Boot application exposing REST endpoints
-
-== Greeter Rest endpoint
-
-The greeter rest endpoint is accessible at http://localhost:8080/greet/joe
+This is an example Spring Boot application
