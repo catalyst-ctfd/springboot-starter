@@ -2,4 +2,4 @@
 
 = Spring Boot Hello World Application
 
-This is an example Spring Boot application
+It exposes / endpoint which returns "Hello World" response
