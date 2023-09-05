@@ -11,13 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreeterController {
 
 
-    @GetMapping("/greet/{user}")
-    public String greet(@Value("${greeter.prefix}") String prefix, @PathVariable("user") String user) {
-        log.info("Prefix :{} and User:{}", prefix, user);
-        if (prefix == null) {
-            prefix = "Hello!";
-        }
-
-        return String.format("%s %s! Welcome to Spring Boot on Kubernetes!", prefix, user);
+    @GetMapping("/")
+    public String greet() {
+        return "Hello World";
     }
 }
